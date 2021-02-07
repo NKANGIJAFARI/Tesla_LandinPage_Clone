@@ -7,13 +7,14 @@ import ModelY from './Images/Desktop-ModelY.jpeg'
 import SolarPanels from './Images/Desktop-SolarPanels.jpeg'
 import SolarRoof from './Images/Desktop-SolarRoof.jpeg'
 
+import "./app.css"
 import Item from './components/Item'
 
 function App() {
   return (
     <div className="App">
       
-
+      <Header />
       <div className="app__itemsContainer">
         <Item 
         
@@ -22,8 +23,11 @@ function App() {
           descLink=""
           background={SolarPanels}
           leftBtnText = "Order Now"
+          leftBtnLink = ""
           rightBtnText = "LEARN MORE"
+          rightBtnLink = ""
           twoButtons= 'true'
+          first
         > <Header /></Item>
 
         <Item 

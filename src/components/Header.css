@@ -2,11 +2,11 @@
   display: flex;
   background-color: transparent;
   background: none;
-  width: 100%;
   top: 0;
-  margin: 15px;
-  margin-top: 15px;
+  padding: 10px;
   z-index: 100;
+  position: fixed;
+  top: 0;
 }
 
 .header_logo {
@@ -18,6 +18,8 @@
 .header__center {
   flex: 1;
   display: flex;
+  background-color: transparent;
+  background: transparent;
   justify-content: center;
 }
 
