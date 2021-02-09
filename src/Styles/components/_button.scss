@@ -1,0 +1,14 @@
+.button > a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.button__white {
+  background-color: white;
+  opacity: 0.65;
+}
+.button__white > a {
+  color: black;
+}

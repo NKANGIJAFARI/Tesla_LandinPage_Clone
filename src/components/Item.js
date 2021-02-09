@@ -1,7 +1,6 @@
 import React from 'react'
 import Button from './Button'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import '../components/item.css'
 
 const Item = (props) => {
 const {

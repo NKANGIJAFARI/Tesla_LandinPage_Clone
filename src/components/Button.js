@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/Button.css'
+
 
 const Button = ({imp, text, link}) => {
     return (
