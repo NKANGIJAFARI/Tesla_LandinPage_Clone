@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import HomeScreen from "./pages/HomeScreen"
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import "./Styles/main.scss"
 
 import "./app.css"
 
